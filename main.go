@@ -38,7 +38,7 @@ func main() {
 	}))
 
 	// ==> routes
-	api := app.Group("/api/v1")
+	api := app.Group(viper.GetString("server.context-path"))
 	routes.Router(api, db)
 
 	// ==> server start

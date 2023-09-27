@@ -1,5 +1,6 @@
 server:
   port: 6000
+  context-path: /api/v1
 jwt:
   secret: e12a4b66-5617-44fe-8156-742da01597d2
   expire: 2
