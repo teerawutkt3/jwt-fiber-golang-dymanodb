@@ -1,0 +1,16 @@
+server:
+  port: 6000
+jwt:
+  secret: e12a4b66-5617-44fe-8156-742da01597d2
+  expire: 2
+
+# database use dynamodb aws
+database:
+#  region: us-west-2
+#  url: http://localhost:8000
+#  key: xv51ob
+#  secret: y5j6ga
+  region: us-east-1
+  url: http://localhost:8000
+  key: AKIAVU2AOY7ANOZVC2SG
+  secret: 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

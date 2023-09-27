@@ -1,0 +1,11 @@
+version: "3"
+services:
+  goalng-api:
+    image: go/fiber-golang
+    container_name: fiber-golang
+    tty: yes
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "6000:6000"
